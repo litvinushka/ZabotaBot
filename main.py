@@ -2,11 +2,11 @@ import telebot
 from telebot import types
 
 # Your bot token
-bot_token = "6659595416:AAHOp734oEmMbXXO_r3k5N0w0zPZTDifz3g"
+bot_token = "token"
 bot = telebot.TeleBot(bot_token)
 
 # List of admin user IDs
-admin_user_ids = [441740734]  # Replace with actual admin user IDs
+admin_user_ids = []  # Replace with actual admin user IDs
 
 # Dictionary to store user data
 user_data = {}
